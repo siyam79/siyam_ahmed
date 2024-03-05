@@ -1,6 +1,5 @@
 import About from "./Components/About"
 import Banner from "./Components/Banner"
-import Bar from "./Components/Bar"
 import Contact from "./Components/Contact"
 import Header from "./Components/Header"
 import Nav from "./Components/Nav"
@@ -22,7 +21,6 @@ function App() {
         <Services></Services>
         <Work></Work>
         <Contact></Contact>
-        <Bar></Bar>
       </div>
 
     </>

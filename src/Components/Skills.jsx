@@ -11,10 +11,10 @@ const Skills = () => {
         { title: 'HTML', percent: 95 },
         { title: 'CSS', percent: 70 },
         { title: 'Tailwind CSS', percent: 90 },
-        { title: 'JavaScript', percent: 70 },
-        { title: 'React JS', percent: 80 },
-        { title: 'Node Js', percent: 60 },
-        { title: 'Mongo DB', percent: 70 },
+        { title: 'JavaScript', percent: 75 },
+        { title: 'React JS', percent: 70 },
+        { title: 'Node Js', percent: 65},
+        { title: 'Mongo DB', percent: 65 },
         { title: 'Next Js', percent: 50 },
     ]);
 

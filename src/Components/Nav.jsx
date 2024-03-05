@@ -3,7 +3,7 @@ import React from "react";
 // import icons
 import { BiHomeAlt, BiUser } from "react-icons/bi";
 import { BsClipboardData, BsBriefcase, BsChatSquare } from "react-icons/bs";
-
+import { FaChartLine } from "react-icons/fa";
 // import links
 import { Link } from "react-scroll";
 
@@ -31,6 +31,15 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <BiUser />
+          </Link>
+          <Link
+            to="skills"
+            activeClass="active"
+            smooth={true}
+            spy={true}
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
+          >
+            <FaChartLine />
           </Link>
           <Link
             to="services"
