@@ -2,6 +2,7 @@ import About from "./Components/About"
 import Banner from "./Components/Banner"
 import Header from "./Components/Header"
 import Nav from "./Components/Nav"
+import Skills from "./Components/Skills"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Banner></Banner>
         <Nav></Nav>
         <About></About>
+        <Skills></Skills>
       </div>
 
     </>
