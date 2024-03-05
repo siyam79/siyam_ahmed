@@ -12,10 +12,8 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 
-
 // resume
-
-import resume from "../assets/MD _ SIYAM Resume (9).pdf"
+import resume from "../assets/siyam_resume.pdf"
 import { Link } from "react-scroll";
 
 

@@ -24,7 +24,7 @@ const Skills = () => {
 
     return (
         <div>
-            <section className="section md:mt-4" id="skills">
+            <section className="section " id="skills">
                 <div className="container mx-auto ">
                     <div className="">
                         {/* text and images */}
