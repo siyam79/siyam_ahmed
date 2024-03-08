@@ -48,7 +48,7 @@ const Skills = () => {
                                             </button>
                                         ))}
                                     </div>
-                                    <div className="flex items-center justify-center">
+                                    <div className="flex items-center justify-center ">
                                         <svg className="transform -rotate-90 w-72 h-72">
                                             <circle cx="145" cy="145" r="120" stroke="currentColor" strokeWidth="30" fill="transparent" className="text-gray-700" />
                                             <circle cx="145" cy="145" r="120" stroke="currentColor" strokeWidth="30" fill="transparent"

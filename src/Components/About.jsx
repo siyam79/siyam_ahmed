@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 // variant
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
+import resume from "../assets/siyam_resume.pdf"
 
 const About = () => {
     const [ref, inView] = useInView({
@@ -81,8 +82,8 @@ const About = () => {
                         </div>
                         <div className="flex gap-x-8 items-center">
                             <Link to="contact"><button className="btn btn-lg">Contact me</button></Link>
-                            <a href="#" className="text-gradient btn-link">
-                                My Portfolio
+                            <a href={resume} download className="text-gradient btn-link">
+                                My Resume
                             </a>
                         </div>
                     </motion.div>

@@ -114,21 +114,25 @@ const Work = () => {
                             <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
                             {/* img */}
                             <img
-                                src="https://i.ibb.co/7SD38t9/social.png"
+                                src="https://i.ibb.co/QHrX465/book-EXchange.png"
                                 alt=""
                                 className="group-hover:scale-125 transition-all duration-500 z-50"
                             />
                             {/* subtitle */}
                             <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                                <span className="text-gradient">Modern Socila Events Website</span>
+                                <span className="text-gradient">Modern SEO Book Exchange PLatform</span>
 
 
-                                <a href="https://github.com/programming-hero-web-course-4/b8a9-event-management-siyam79" target="_blank" className=" flex items-center gap-1 text-gradient ">
+                                <a href="https://github.com/ShahreyarRafi/BoiBinimoy" target="_blank" className=" flex items-center gap-1 text-gradient ">
                                     <FaGithub className=" text-white "></FaGithub>
-                                    Code
+                                    Client
+                                </a>
+                                <a href="https://github.com/ShahreyarRafi/BoiBinimoy-Server" target="_blank" className=" flex items-center gap-1 text-gradient ">
+                                    <FaGithub className=" text-white "></FaGithub>
+                                    Server
                                 </a>
 
-                                <a href="https://social-event-c5d78.web.app/" target="_blank" className=" flex items-center gap-1 text-gradient ">
+                                <a href="https://boibinimoy.netlify.app/" target="_blank" className=" flex items-center gap-1 text-gradient ">
                                     <FaLink className=" text-white "></FaLink>
                                     Live Site
                                 </a>
@@ -137,7 +141,7 @@ const Work = () => {
                             </div>
                             {/* title */}
                             <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                                <span className="text-3xl text-white"> Tech : REACT PROJECTS </span>
+                                <span className="text-3xl text-white"> Tech : Nextjs & React  (Team Projects) </span>
                             </div>
                         </div>
                     </motion.div>

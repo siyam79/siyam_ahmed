@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from 'react-scroll';
 // import logo
 // import Logo from '../assets/logo1.png';
 
@@ -14,7 +15,10 @@ const Header = () => {
         </a>
 
         {/* button */}
-        <button className='btn btn-sm'>Work with me</button>
+        <Link to='contact'>
+          <button className='btn btn-sm'>Work with me</button>
+        </Link>
+
       </div>
     </div>
   </header>;
