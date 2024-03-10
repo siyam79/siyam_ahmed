@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 // variant
 import { fadeIn } from "../variants";
 import { Link } from "react-scroll";
-import resume from "../assets/siyam_resume.pdf"
+import resume from "../assets/siyam_ahmed_resume.pdf"
 
 const About = () => {
     const [ref, inView] = useInView({

@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 // resume
-import resume from "../assets/siyam_resume.pdf"
+import resume from "../assets/siyam_ahmed_resume.pdf"
 import { Link } from "react-scroll";
 
 
